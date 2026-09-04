@@ -1,4 +1,4 @@
-export default class GameOver extends Phaser.Scene {
+class GameOver extends Phaser.Scene {
     constructor() {
         super({ key: 'GameOver' });
     }

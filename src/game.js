@@ -1,6 +1,4 @@
-import Preload from './scenes/Preload.js';
-import MainMenu from './scenes/MainMenu.js';
-import GameOver from './scenes/GameOver.js';
+// Scene classes are loaded via separate script tags (Preload, MainMenu, Game, GameOver).
 
 const config = {
     type: Phaser.AUTO,

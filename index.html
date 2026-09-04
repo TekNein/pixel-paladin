@@ -22,6 +22,11 @@
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
-    <script src="src/game.js" type="module"></script>
+    <!-- Load each scene as a regular script (non‑module) -->
+    <script src="src/scenes/Preload.js"></script>
+    <script src="src/scenes/MainMenu.js"></script>
+    <script src="src/scenes/GameOver.js"></script>
+    <script src="src/scenes/Game.js"></script>
+    <script src="src/game.js"></script>
 </body>
 </html>
