@@ -1,4 +1,4 @@
-class Preload extends Phaser.Scene {
+window.Preload = class Preload extends Phaser.Scene {
     constructor() {
         super({ key: 'Preload' });
     }

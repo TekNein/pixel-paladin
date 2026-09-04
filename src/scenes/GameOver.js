@@ -1,4 +1,4 @@
-class GameOver extends Phaser.Scene {
+window.GameOver = class GameOver extends Phaser.Scene {
     constructor() {
         super({ key: 'GameOver' });
     }

@@ -1,4 +1,4 @@
-class MainMenu extends Phaser.Scene {
+window.MainMenu = class MainMenu extends Phaser.Scene {
     constructor() {
         super({ key: 'MainMenu' });
     }

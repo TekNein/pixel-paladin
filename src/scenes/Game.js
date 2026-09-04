@@ -1,4 +1,4 @@
-class Game extends Phaser.Scene {
+window.Game = class Game extends Phaser.Scene {
     constructor() {
         super({ key: 'Game' });
 
